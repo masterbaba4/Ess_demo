@@ -1,3 +1,4 @@
+import 'package:ess_demo/pages/search.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/observation_solution.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       )
           // primarySwatch: Colors.blue,
           ),
-      home: const PageWudget(),
+      home: const SearchNamebyID(),
     );
   }
 }
