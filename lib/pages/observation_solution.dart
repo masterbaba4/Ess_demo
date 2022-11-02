@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class PageWudget extends StatefulWidget {
-  const PageWudget({super.key});
+class Ovservation extends StatefulWidget {
+  const Ovservation({super.key});
 
   @override
-  State<PageWudget> createState() => _PageWudgetState();
+  State<Ovservation> createState() => _OvservationState();
 }
 
-class _PageWudgetState extends State<PageWudget> {
+class _OvservationState extends State<Ovservation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

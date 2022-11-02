@@ -1,3 +1,4 @@
+import 'package:ess_demo/pages/reports.dart';
 import 'package:ess_demo/pages/search.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'School Demo',
       theme: ThemeData(
           primaryColor: const Color.fromARGB(
         255,
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       )
           // primarySwatch: Colors.blue,
           ),
-      home: const SearchNamebyID(),
+      home: const Reports(),
     );
   }
 }
